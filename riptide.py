@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Text formatter for cleaning up terminal-copied text.
+"""riptide — cleans up terminal-copied text
 
 Usage:
-    pbpaste | python textfmt.py [--pr]
-    pbpaste | python textfmt.py [--pr] | pbcopy
+    pbpaste | python riptide.py [--pr]
+    pbpaste | python riptide.py [--pr] | pbcopy
 """
 
 import argparse
